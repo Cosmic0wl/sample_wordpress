@@ -1,0 +1,123 @@
+/*
+Theme Name: QT
+Theme URI: https://www.codefactory.wien
+Author: Valentina Panetta
+Author URI: https://codefactory.wien
+Description: this is a Theme created for CodeFactory, used for educational purposes
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: codefactory
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
+ * Custom CSS
+ */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Bootstrap overrides */
+.navbar-brand {
+  color: #232460 !important;
+}
+.active {
+  background-color: #232460 !important;
+  color: #fdfafe !important;
+}
+
+.active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show .nav-link {
+  color: #fdfafe !important;
+}
+.nav-link {
+  color: #232460 !important;
+}
+
+/* jumbotron */
+.background-photo {
+  background-image: url('https://cdn.dribbble.com/users/741168/screenshots/5380048/connected_city_-_part_1_digitalocean.png');
+  background-color: #0f11c5;
+  border-bottom: solid 0.2rem #818ecb;
+  color: #fdfafe;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+/* background colors */
+
+.bg-pearl{
+    background: #fdfafe;
+}
+.bg-blue{
+    background: #0f11c5;
+}
+.bg-black{
+    background: #06061b;
+}
+.bg-darkblue{
+    background: #0e11ac;
+}
+.bg-darkerblue{
+    background: #232460;
+}
+.bg-grey{
+    background: #9fa1b9;
+}
+.bg-lilac{
+    background: #818ecb;
+}
+.bg-lightblue{
+    background: #3f58af;
+}
+
+/* text colors */
+
+.text-pearl {
+  color: #fdfafe;
+}
+
+.text-black {
+  color: #06061b;
+}
+
+.text-darkerblue {
+  color: #232460;
+}
+
+.text-blue {
+  color: #0e11ac
+}
+
+.text-lilac {
+  color: #818ecb;
+}
+
+/* borders */
+
+.border-db {
+  border: solid 0.2rem #0e11ac;
+  border-radius: 1rem;
+}
+
+.border-blue {
+  border-bottom: solid 0.2rem #232460;
+}
+
+.border-t {
+  border-top: solid 0.2rem #232460;
+}
+
+.border-lilac
+{
+  border: solid 0.2rem #818ecb;
+  border-radius: 1rem 2.5rem 2rem;
+}
+
+.opacity {
+  opacity: 0.9;
+}
